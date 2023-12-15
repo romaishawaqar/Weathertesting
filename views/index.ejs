@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <h1>Check Weather</h1>
+  <form action="/check-weather" method="post">
+    <label for="latitude">Enter Latitude:</label>
+    <input type="text" id="latitude" name="latitude" required>
+    <label for="longitude">Enter Longitude:</label>
+    <input type="text" id="longitude" name="longitude" required>
+    <button type="submit">Check Weather</button>
+  </form><br>
+
+  <form action="/check-weatherbyloc" method="post">
+    <label for="Location">Enter Location:</label>
+    <input type="text" id="Location" name="Location" required>
+    <button type="submit">Check Weather</button>
+  </form>
+
+ 
+</body>
+</html>
